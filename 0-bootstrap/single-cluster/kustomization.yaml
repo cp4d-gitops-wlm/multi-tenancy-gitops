@@ -51,7 +51,7 @@ patches:
       value: https://charts.cloudnativetoolkit.dev
     - op: add
       path: /spec/sourceRepos/-
-      value: https://github.com/gitops-helm/helm-charts.git
+      value: https://gitops-helm.github.io/helm-charts/
 - target:
     group: argoproj.io
     kind: AppProject
