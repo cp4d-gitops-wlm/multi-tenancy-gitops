@@ -381,6 +381,12 @@ rules:
   - verbs:
       - '*'
     apiGroups:
+      - wml.cpd.ibm.com
+    resources:
+      - wmlbases
+  - verbs:
+      - '*'
+    apiGroups:
       - db2u.databases.ibm.com
     resources:
       - dvservices
